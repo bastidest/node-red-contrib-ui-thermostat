@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  node-red:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/usr/src/node-red/node_modules/node-red-contrib-thermostat
+    ports:
+      - 1880:1880

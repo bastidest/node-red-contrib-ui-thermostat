@@ -1,0 +1,16 @@
+{
+  "thermostat": {
+    "label": {
+      "size": "Size",
+      "name": "Name",
+      "group": "Group",
+      "topic": "Topic"
+    },
+    "placeholder": {
+      "value": "value"
+    },
+    "error": {
+      "no-group": "Group is missing"
+    }
+  }
+}

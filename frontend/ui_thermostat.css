@@ -1,0 +1,81 @@
+.ui_thermostat__root {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.ui_thermostat__input-compound, .ui_thermostat__input-compound > * {
+    font-weight: 600;
+    letter-spacing: -0.064em;
+    font-size: 37px;
+    color: black;
+}
+
+.ui_thermostat__input {
+    border: none;
+    width: 68px;
+    border-bottom: 1px black solid;
+    text-align: right;
+    padding: 0 8px 0 0;
+}
+
+.ui_thermostat__input--invalid {
+    color: red;
+}
+
+.ui_thermostat__input--changed {
+    color: orange;
+}
+
+.ui_thermostat__input--not-acked {
+    color: green;
+}
+
+.ui_thermostat__input--ok {
+    color: black;
+}
+
+.ui_thermostat__input-wrapper {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.ui_thermostat__arrow:hover {
+    color: #0094ce;
+    cursor: pointer;
+}
+
+.ui_thermostat__arrow {
+    color: #dfdddd;
+    transition: ease-in-out color .1s;
+    user-select: none;
+}
+
+.ui_thermostat__measured-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    align-items: center;
+}
+
+.ui_thermostat__measured {
+    color: #00974d;
+}
+
+.ui_thermostat__button {
+    background-color: rgba(245, 246, 247, 0.996);
+    border: 1px lightgray solid;
+    border-radius: 4px;
+    padding: 1px 14px;
+}
+
+.ui_thermostat__lock-icon {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}
